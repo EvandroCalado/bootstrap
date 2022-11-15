@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Bootstrap -->
+    <link
+      href="../node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Icons Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <!-- JavaScript Bootstrap -->
+    <script
+      src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+    <title>Aula 16 - Configurações de Visibilidade</title>
+    <style>
+      div.border {
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="p-3 text-bg-dark d-print-none">
+      <div class="container">
+        <h1 class="display-1 fs-4">Cabeçalho</h1>
+      </div>
+    </header>
+    <article class="container my-3">
+      <h1 class="mb-4">Título do artigo</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, ad. Vero pariatur cum assumenda praesentium odio, officiis, facilis iste reiciendis adipisci itaque repellendus earum est porro sapiente a nam exercitationem.
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint at possimus saepe quis necessitatibus officiis nesciunt nobis iusto aperiam iure architecto rerum unde accusamus ducimus, tempora soluta alias odit nostrum.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat eum voluptatum nisi mollitia distinctio, consequatur unde! Tempore molestias mollitia adipisci amet, temporibus reprehenderit voluptatibus dolore eum itaque, magni, deleniti praesentium!
+      </p>
+      <p class="d-none d-print-block">
+        Fonte:meusite.com.br
+      </p>
+    </article>
+    <hr>
+      <div class="p-5 bg-danger"></div>
+      <div class="p-4 col-3 d-block m-3 bg-primary"></div>
+      <div class="p-4 col-3 d-block m-3 bg-success"></div>
+      <div class="p-4 col-3 d-block m-3 bg-warning"></div>
+
+      <div class="p-5 bg-danger"></div>
+      <div class="p-4 col-3 d-inline m-3 bg-primary"></div>
+      <div class="p-4 col-3 d-inline m-3 bg-success"></div>
+      <div class="p-4 col-3 d-inline m-3 bg-warning"></div>
+
+      <div class="p-5 bg-danger"></div>
+      <div class="p-4 col-3 d-inline-block m-3 bg-primary"></div>
+      <div class="p-4 col-3 d-inline-block m-3 bg-success"></div>
+      <div class="p-4 col-3 d-inline-block m-3 bg-warning"></div>
+
+      <div class="p-5 bg-danger"></div>
+      <div class="p-4 col-3 d-flex m-3 bg-primary"></div>
+      <div class="p-4 col-3 d-flex m-3 bg-success"></div>
+      <div class="p-4 col-3 d-flex m-3 bg-warning"></div>
+
+      <div class="p-5 bg-danger"></div>
+      <div class="p-4 col-3 d-none d-lg-block m-3 bg-primary"></div>
+      <div class="p-4 col-3 d-block d-lg-none m-3 bg-success"></div>
+      <div class="p-4 col-3 d-flex m-3 bg-warning"></div>
+
+      <div class="p-4 col-3 m-3 bg-primary"></div>
+      <div class="p-4 col-3 m-3 bg-success invisible"></div>
+      <div class="p-4 col-3 m-3 bg-warning"></div>
+
+      <div class="container bg-info mt-3">
+        <div class="row">
+          <div class="border p-2 col-3 overflow-auto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio reiciendis est dignissimos. Explicabo ut tempora dignissimos molestias ullam inventore incidunt sed ipsa dolores cupiditate? Rem quod fuga libero minima tempora.
+          </div>
+          <div class="border p-2 col-3 overflow-hidden">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut adipisci maiores minus non nulla architecto eveniet, cumque dolorum atque in vel aliquid debitis mollitia. Facere itaque voluptates voluptatibus impedit illo?
+          </div>
+          <div class="border p-2 col-3 overflow-visible">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta dolorum quos unde qui blanditiis nostrum quam? Architecto blanditiis autem temporibus tempora aliquid cupiditate, delectus possimus deserunt error velit laboriosam.
+          </div>
+          <div class="border p-2 col-3 overflow-scroll">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab tempora eum quod adipisci pariatur est, id cupiditate quaerat fuga, obcaecati provident omnis corrupti distinctio sint vero autem laboriosam. Reiciendis, ea?
+          </div>
+        </div>
+      </div>
+
+    <h3>
+      <a class="text-decoration-none" href="../index.html">Voltar ao Início</a>
+    </h3>
+  </body>
+</html>
